@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= THESE STYLES DESIGNED AND BUILT WITH LOVING CARE -=-=-=
+=-=-=-=- ENTIRELY BY HAND, JUST FOR YOU BY IAN BESLER =-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+/* -=-=-=-=-=-=-=-=-=-=
+-=-=-= CSS RESET =-=-=-
+=-=-=-=-=-=-=-=-=-=- */
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-= HTML5 SEMANTIC TAGS =-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+	header {
+
+	}
+
+	nav {
+
+	}
+
+	section {
+
+	}
+
+	article {
+
+	}
+
+	figure {
+		width: 5vw;
+		height: 5vw;
+		position: fixed;
+	}
+
+	footer {
+
+	}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-= CSS NAMED COLOR CLASSES =-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+	.red {
+		background-color: red;
+	}
+	
+	.orange {
+		background-color: orange;
+	}
+	
+	.yellow {
+		background-color: yellow;
+	}
+	
+	.green {
+		background-color: green;
+	}
+	
+	.blue {
+		background-color: blue;
+	}
+	
+	.purple {
+		background-color: purple;
+	}
