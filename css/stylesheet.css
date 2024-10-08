@@ -1,0 +1,212 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Helvetica;
+    font-stretch: normal;
+    background-color: #FEFCF6;
+    margin: 1%;
+    size: 80%;
+}
+
+/* Header Styles */
+header {
+    background-color: #FEFCF6;
+    color: #5E6C5B;
+    padding-top: 1vh;
+    padding-bottom: 0vh;
+    border: #5E6C5B solid .2vw;
+}
+
+nav {
+    height: 10vh;
+    position: relative;
+    display: inline;
+    list-style-type: none;
+}
+    nav ul{
+        float: right;
+        margin-left: 19vw;
+    }
+
+        nav ul li {
+            height: 10vh;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            background: #FEFCF6;
+            border-radius: 3vh;
+            border: 0.2vw #5E6C5B solid;
+            float: right;
+            list-style-type: none;
+            margin-right: 1vw;
+
+        }
+        li a:hover{
+            color: #d6e0e2;
+            background-color: #5E6C5B;
+            border: 0.3vw #5E6C5B solid;
+            width: auto;
+            height: 10vh;    
+            position: relative;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2.5vh;
+            -webkit-text-stroke: black 0.05vw;
+            margin: 0.1vw;
+            padding: 0.05vw;
+            margin-right: 0vw;
+            margin-left: 0;
+
+        }
+            nav ul li a{
+                width: auto;
+                height: 10vh;
+                position: relative;
+                text-align: center;
+                color: #5E6C5B;
+                font-size: 7vh;
+                font-family: 'Gliker';
+                font-weight: 500;
+                word-wrap: break-word;
+                -webkit-text-stroke: black 0.05vw;
+                text-decoration: none;
+                margin: 0.15vw;
+            }
+
+
+.logo{
+    height: 11vh;
+    width: 11vw;
+    padding: -1vw;
+    margin-top: -1vh;
+}
+
+.logo:hover{
+    animation: squiggle 3s;
+}
+
+section div p{
+    font-family: monospace;
+    letter-spacing: -0.10vw;
+    position: relative;
+    font-weight: 900;
+    color: #d6e0e2;
+    -webkit-text-stroke: #5E6C5B 0.05vw;
+    position: absolute;
+    left: 40%;
+    font-size: 10vh;
+    margin-top: 0vh;
+    white-space: nowrap;
+    line-height: 0vh;
+    animation: animate 30s linear infinite;
+}
+/* Container Styles */
+.title{
+    max-width: 1000vw; /* Adjusted max-width for better responsiveness */
+    max-height: 500vh;
+    margin-top: 3vh;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #FEFCF6;
+    border-top: #5E6C5B solid .2vw;
+    border-bottom: #5E6C5B solid .2vw;
+    margin-left: -1vw;
+    margin-right: -1vw;
+}
+
+.container {
+    max-width: auto;
+    max-height: auto;
+    margin-top: 3vh;
+    padding: 1vh;
+    padding-inline-start: 3%;
+    background-color: #FEFCF6;
+    border: #5E6C5B solid .2vw;
+    display:inline-table;
+    justify-content:center;
+    float: top;
+}
+
+.assignment {
+    padding: 0.5vw;
+    margin: 0.5vw;
+    height:max-content;
+    width: max-content;
+    position: relative;
+    justify-content:space-around;
+    float: left;
+}
+
+.assignment:hover{
+    background-color: #5E6C5B;
+    opacity: 90%;
+}
+
+#preview{
+    height: 25vh;
+    width: 25vw;
+}
+
+h2{
+    font-family: helvetica;
+    font-size: 8vh;
+    color: #d6e0e2;
+    -webkit-text-stroke: #5E6C5B 0.05vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 3vh;
+    text-wrap: wrap;
+    float: left;
+}
+
+
+footer{
+    display: block;
+    color: #5E6C5B;
+    border-spacing: 0;
+    margin-bottom: 0vh;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    text-align: center;
+    margin-left: -1vw;
+    margin-right: -1vw;
+}
+
+@font-face{
+    font-family: Playfair Display;
+    src:url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Gliker;
+    src: url(../fonts/Gliker.ttf);
+}
+
+@font-face{
+    font-family: Gliker-Regular;
+    src: url(../fonts/Gliker-Regular.ttf);
+}
+
+@font-face{
+    font-family: Gra-Med;
+    src: url(../fonts/Gra-Med.ttf);
+}
+
+@font-face{
+    font-family: Gra-Reg;
+    src: url(../fonts/Gra-Reg.ttf);
+}
+
+@font-face{
+    font-family: Gra-Black;
+    src: url(../fonts/Gra-Black.ttf);
+}

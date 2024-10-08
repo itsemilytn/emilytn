@@ -1,0 +1,93 @@
+
+<!--
+    _________________________________________________________________________________________________________________________
+    |:::::::::eee::::eee:::::::|::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::|
+    |::::::::m  m:::m  m:::::::|============================================================================================|
+    |::::::::i  i:::i  i:::::::|₊˚⊹♡*ੈੈ✩‧₊˚✧˚ ༘ ⋆｡♡˚｡ ₊°༺❤︎༻°₊ ｡ ⋆ ˚｡⋆୨♡୧⋆ Emily Nguyen ˚｡⋆ ₊˚⊹♡ ˖ ݁𖥔 ݁˖ 𐙚  ˖ ݁𖥔 ݁˖✩‧₊˚༺☆༻* |
+    |::::::::l  l:::l  l:::::::|============================================================================================|
+    |:::::::y    y:y   y:::::::|                               __   __                                                      |
+    |:::::n              n:::::|        ______                |__| |  |                ___     __      * * *   * * *        |
+    |::::g                g::::|       |  ____|  ____   ____  ___  |  |  __   __      |    \  |  |    * * * * * * * *       |   
+    |::::u                u::::|       |  |___  |    \ /    | |  | |  | |  |  | |     |  |\ \ |  |     * * * * * * *        |
+    |::::y  -          -  y::::|       |  ____| |  |\__/ |  | |  | |  | \  \_/  |     |  | \ \|  |       * * * * *          |
+    |:::::e       x      e:::::|       |  |___  |  |     |  | |  | |  |  \____| |     |  |  \ |  |  _      * * *            |
+    |::::::n            n::::::|       |______| |__|     |__| |__| |__| [ \___| |     |__|   \___| |_|       *              |
+    |:::::::e ' ' ' ' 'e:::::::|                                         \_____/                                            |
+    |:::::m              m:::::|                                                                                            | 
+    |::::i__|          |__i::::|============================================================================================|
+    |:::::::l          l:::::::|₊˚⊹♡*ੈੈ✩‧₊˚✧˚ ༘ ⋆｡♡˚｡ ₊°༺❤︎༻°₊ ｡ ⋆ ˚｡⋆୨♡୧⋆ Emily Nguyen ˚｡⋆ ₊˚⊹♡ ˖ ݁𖥔 ݁˖  𐙚  ˖ ݁𖥔 ݁˖✩‧₊˚༺☆༻*|
+    |::::::::y    |    y:::::::|============================================================================================| 
+    |:::::::::nnn  nnn:::::::::|::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::|
+    _________________________________________________________________________________________________________________________
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Emily's Website</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/animation-stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/index-stylesheet.css"
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <li><a href="index.html" class="home">Home</a></li>
+                <ul>
+                    <li><a href="pages/about/about-me.html">About Me</a></li>
+                    <li><a href="pages/inspiration/inspiration.html">Inspiration</a></li>
+                    <li><a href="pages/demos/demos.html">Demos</a></li>
+                    <li><a href="pages/projects/projects.html">Projects</a></li>    
+                </ul>
+            </nav>
+        </header>
+
+        <section class="title">
+            <div>
+                <p>Welcome to My Website!</p>
+            </div>
+        </section>
+
+        <main class="cover top fade-in">
+            <h2 id="instructions">Click and drag to move parts!</h2>
+            <img src="img/elipse.png" id="cover-1pt1">
+            <img src="img/ring.png" id="cover-1pt2">
+            <img src="img/cover-2.png" id="cover-2">
+            <img src="img/star-left.png" id="cover-3pt1">
+            <img src="img/star-right.png" id="cover-3pt2">
+            <img src="img/cover-4.png" id="cover-4">
+            <div id="draggable" class="ui-widget-content">
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <script>
+                        $( function() {
+              $( "#instructions" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-1pt1" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-1pt2" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-2" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-3pt1" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-3pt2" ).draggable();
+            } );
+            $( function() {
+              $( "#cover-4" ).draggable();
+            } );
+         </script>
+        <footer>
+            <p>&#169 emily nguyen</p>
+        </footer>
+    </body>
+</html>

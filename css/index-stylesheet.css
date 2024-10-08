@@ -1,0 +1,114 @@
+header {
+    background-color: #FEFCF6;
+    color: #5E6C5B;
+    padding-top: 1vh;
+    padding-bottom: 11vh;
+    border: #5E6C5B solid .2vw;
+}
+
+.home{
+    text-decoration: none;
+    float: left;
+    width: auto;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    color: #5E6C5B;
+    font-size: 7vh;
+    font-family: 'Gliker';
+    font-weight: 500;
+    word-wrap: break-word;
+    -webkit-text-stroke: black 0.05vw;
+    margin: 0.15vw;
+    margin-left: 1vw;
+    background: #FEFCF6;
+    border-radius: 3vh;
+    border: 0.2vw #5E6C5B solid;
+}
+
+.home:hover{
+    color: #d6e0e2;
+    height: 10vh;
+    width: auto;
+    background-color: #5E6C5B;
+    border-radius: 3vh;
+    border: 0.1vw #5E6C5B solid;
+    -webkit-text-stroke: black 0.05vw;
+    margin: 0.15vw;
+    margin-left: 1vw;
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    top: 0;
+    left: 0;
+    background-color: #FEFCF6;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    padding-bottom: 60vh;
+    float: top;
+}
+
+#cover-1pt1{
+    z-index: 1;
+    position:  absolute;
+    left: 26vw;
+    top: 22vh;
+}
+#cover-1pt2{
+    z-index: 1;
+    position:  absolute;
+    left: 10vw;
+    top: 1vh;
+}
+
+#cover-2{
+    z-index: 2;
+    position: absolute;
+    left: 10vw;
+    top: 1vh;
+}
+
+#cover-3pt1{
+    z-index: 3;
+    position: absolute;
+    left: 23vw;
+    top: 25vh;
+}
+#cover-3pt2{
+    z-index: 3;
+    position: absolute;
+    left: 70vw;
+    top: 23vh;
+}
+
+#cover-4{
+    z-index: 4;
+    position: absolute;
+    left: 30vw;
+    top: 12vh;
+}
+#instructions{
+    color: #5E6C5B;
+    font-size: 5vh;
+    margin-bottom: 10vh;;
+    padding-bottom: 10vh;
+}
+
+footer{
+    display: block;
+    color: #5E6C5B;
+    border-spacing: 0;
+    margin-bottom: 0vh;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    text-align: center;
+    border-top: #5E6C5B solid .2vw;
+    margin-left: -1vw;
+    margin-right: -1vw;
+}
