@@ -1,0 +1,111 @@
+/* -=-=-=-=-=-=-=-=-=-=-=-=-= CSS RESET =-=-=-=-=-=-=-=-=-=-=-=-=- */
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		background-attachment: fixed;
+	}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- HTML5 SEMANTIC TAGS -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+	html body section {
+		width: 100vw;
+		height: 35vh;
+		padding-top: 15vh;
+	}
+
+		html body section h1 {
+			font-size: 8vw;
+			text-align: center;
+		}
+
+		html body figure {
+			width: 4vw;
+			height: 3.75vw;
+			border-radius: 50%;
+			position: absolute;
+			padding: 1.25vw 0.5vw 0 0.5vw;
+		}
+
+			html body figure h2 {
+				font-size: 1.5vh;
+				text-align: center;
+			}
+
+				html body figure#negative-one {
+					top: 45vh;
+					left: 20vw;
+				}
+
+				html body figure#negative-one-half {
+					top: 45vh;
+					left: 30vw;
+				}
+
+				html body figure#negative-one-quarter {
+					top: 45vh;
+					left: 40vw;
+				}
+
+				html body figure#zero {
+					top: 45vh;
+					left: 50vw;
+				}
+
+				html body figure#one-half {
+					top: 45vh;
+					left: 60vw;
+				}
+
+				html body figure#one {
+					top: 45vh;
+					left: 70vw;
+				}
+
+				html body figure#two {
+					top: 45vh;
+					left: 80vw;
+				}
+
+/* =-=-=-=-=-=-=-=-=-=-=
+BACKGROUND IMAGE CLASSES
+=-=-=-=-=-=-=-=-=-=-= */
+
+	.strokes-one {
+		background-image: url(../img/strokes.png);
+	}
+
+	.strokes-two {
+		background-image: url(../img/strokes2.png);
+	}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=- CSS NAMED COLOR CLASSES -=-=-=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+	.red {
+		background-color: red;
+	}
+
+	.orange {
+		background-color: orange;
+	}
+	
+	.yellow {
+		background-color: yellow;
+	}
+	
+	.green {
+		background-color: limegreen;
+	}
+	
+	.blue {
+		background-color: cyan;
+	}
+	
+	.purple {
+		background-color: purple;
+	}
+	
+	.magenta {
+		background-color: magenta;
+	}
