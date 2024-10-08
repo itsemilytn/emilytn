@@ -1,0 +1,45 @@
+/*-=-=-=- css reset -=-=-=-*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-=-=-=-=-= section -=-=-=-=-=-=*/
+section{
+    width: 12vw;
+    height: 100vh;
+    float: left;
+}
+
+/*-=-=-=-=-=- color classes -=-=-=-=-=-*/
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.magenta{
+    background-color: magenta;
+}

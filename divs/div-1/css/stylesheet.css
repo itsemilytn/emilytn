@@ -1,0 +1,101 @@
+/*-=-=-=-=-=-=-=-=-=-=-=- main canvas -=-=-=-=-=-=-=-=-=-=-=-=*/
+main#canvas{
+    width: 52.2vw;
+    height: 52.4vw;
+    margin: 2vh auto;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-= HTML5 semantic tags -=-=-=-=-=-=-=-=-*/
+section{
+    width: 40%;
+    height: 30%;
+    float: left;
+}
+
+article{
+    width: 80%;
+    height: 80%;
+    margin-top: 8%;
+    margin-left: 10%;
+    float:left;
+}
+
+figure{
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-top: 7%;
+    display:grid;
+}
+
+main{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-=-=-=-=-=-=-=-=-=-= css hover pseudo-classes -=-=-=-=-=-=-=-=-=-=-*/
+.cream:hover{
+    background-color: black;
+}
+
+.forest:hover{
+    background-color: #c7c7bb;
+}
+
+.skyblue:hover{
+    background-color: #162a2c;
+}
+
+.navy:hover{
+    background-color: #d6e0e2;
+}
+
+.sage:hover{
+    background-color: #5e6c5b;
+}
+
+.pink:hover{
+    background-color: #B4BDBA;
+}
+.gray:hover{
+    background-color: #ffecee;
+}
+
+.black:hover{
+    background-color: #f4efe6;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=- color classes -=-=-=-=-=-=-=-=-=-*/
+.cream{
+    background-color: #f4efe6;
+}
+
+.forest{
+    background-color: #5e6c5b;;
+}
+
+.skyblue{
+    background-color: #d6e0e2;
+}
+
+.navy{
+    background-color: #162a2c;
+}
+
+.sage{
+    background-color: #c7c7bb;
+}
+
+.pink{
+    background-color: #ffecee;
+}
+.gray{
+    background-color: #B4BDBA;
+}
+
+.black{
+    background-color: black;
+}

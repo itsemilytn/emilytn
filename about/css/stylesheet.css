@@ -1,0 +1,42 @@
+#head{
+    height: 50vh;
+    width: 20vw;
+    display: flexbox;
+}
+
+.pic{
+    height: max-content;
+    float: left;
+    margin: 0.5vw;
+}
+
+.bio{
+    font-family: helvetica;
+    text-wrap:  wrap;
+}
+
+.content{
+    max-width: auto;
+    max-height: auto;
+    margin-top: 3vh;
+    padding: 1vh;
+    background-color: #FEFCF6;
+    border: #5E6C5B solid .2vw;
+    display:inline-table;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 5vh;
+    color: #5E6C5B;
+}
+h3{
+    font-size: 5vh;
+    text-wrap: wrap;
+    float: none;
+}
+
+@font-face{
+    font-family: Playfair Display;
+    src:url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}

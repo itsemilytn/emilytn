@@ -1,0 +1,119 @@
+/*-=-=-=-=-=-=-=-=-=-=-=- main canvas -=-=-=-=-=-=-=-=-=-=-=-=*/
+main#canvas{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto 0;
+    box-shadow: 10px 10px 0px gray;
+}
+
+/*-=-=-=-=-=-=-=-=-= box ids -=-=-=-=-=-=-=-=-*/
+
+#toprow{
+    height: 290px;
+}
+
+#bigbox{
+    width: 290px;
+    height: 290px;
+}
+
+#bottomleftbox{
+    width: 100px;
+    height: 100px;
+}
+
+#bottomrightcolumn{
+    height: 100px;
+    width: 40px;
+}
+
+#bottommiddlebox{
+    height: 100px;
+    width: 240px;
+}
+
+/*-=-=-=-=-= divider ids -=-=-=-=-=-=-=-*/
+#divider1{
+    height: 290px;
+    width: 10px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3{
+    height: 10px;
+    width: 400px;
+}
+
+#divider4{
+    height: 100px;
+    width: 10px;
+}
+
+#divider5{
+    height: 10px;
+    width: 50px;
+}
+
+#divider6{
+    height: 100px;
+    width: 10px;
+}
+
+/*-=-=-=-=-=-=-=-= box classes -=-=-=-=-=-=-=-=-=-=-=-*/
+.right{
+    float: right;
+}
+
+.mediumbox{
+    width: 100px;
+    height: 140px;
+}
+
+.smallbox{
+    width: 50px;
+    height: 45px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-= css hover pseudo-classes -=-=-=-=-=-=-=-=-=-=-*/
+.blue:hover{
+    background-color: lightblue;
+}
+
+.red:hover{
+    background-color: lightcoral;
+}
+
+.yellow:hover{
+    background-color: lemonchiffon;
+}
+
+.black:hover{
+    background-color: gray;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=- color classes -=-=-=-=-=-=-=-=-=-*/
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}

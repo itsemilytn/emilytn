@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 246, 253);
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=- main canvas -=-=-=-=-=-=-=-=-=-=-=-=*/
+#canvas{
+    width: 550px;
+    height: 550px;
+    margin: auto; 
+    margin-top: 50px;
+    border: gray solid 1px;
+}
+/*-=-=-=-=-=-=-=-=- HTML5 semantic tags -=-=-=-=-=-=-=-=-*/
+
+/*-=-ids-=-*/
+#rowpink{
+    height: 50px;
+    width: 550px;
+    float: left;
+}
+
+#rowlight{
+    height: 50px;
+    width: 550px;
+    float: left;
+}
+
+
+/*-= classes-=-*/
+.box{
+    height:50px;
+    width: 50px;
+    float: right;
+}
+
+/*-=-=-=-=-=-=-=-=-=-= css hover pseudo-classes -=-=-=-=-=-=-=-=-=-=-*/
+.lightpink:hover{
+    background-color: lightcyan;
+}
+
+.pink:hover{
+    background-color: lightblue;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=- color classes -=-=-=-=-=-=-=-=-=-*/
+.white{
+    background-color: white;
+}
+
+.lightpink{
+    background-color: #ffecee;
+}
+
+.pink{
+    background-color: pink;
+}

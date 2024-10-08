@@ -1,0 +1,82 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,section,footer{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top: 25vh;
+    right: 25vh;
+}
+
+ol{
+    list-style-type:none;
+}
+
+a:link{
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    border:0.2 vw solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    font-size: 0;
+    opacity: 0;
+    position: relative;
+    top: 0.2vw;
+    right: 2vw;
+    white-space: nowrap;
+    transition: right 0.2s, opacity 0.2a;
+}
+
+a:hover{
+    font-size: 1.2vw;
+    right: 9vw;
+    opacity: 1;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.magenta{
+    background-color: magenta;
+}

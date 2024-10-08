@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:lightsteelblue;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img{
+    margin: auto;
+    max-width: 90vw;
+    max-height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+    div#div-one{
+        background-color: mediumvioletred;
+    }
+    div#div-two{
+        background-color: thistle;
+    }
+    div#div-three{
+        background-color: lightseagreen;
+    }
