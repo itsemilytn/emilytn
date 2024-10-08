@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+		<title>jQuery Emoji Story</title>
+		<meta charset="utf-8">
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= THIS WEBSITE DESIGNED AND BUILT WITH LOVING CARE -=-=-=
+=-=-=-=- ENTIRELY BY HAND JUST FOR YOU BY IAN BESLER -=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-= JQUERY HOSTED LIBRARY VIA GOOGLE CDN -=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<button id="home">You come &#x1f3e0;</button>
+		<button id="school" class="start-hidden">from &#x1f3eb;.</button>
+		<button id="eat" class="start-hidden">You start to &#x1f374;</button>
+		<button id="food" class="start-hidden">a &#x1f354;,</button>
+		<button id="think" class="start-hidden">but then you &#x1f4ad;</button>
+		<button id="time" class="start-hidden">that it’s &#x1f554;</button> 
+		<button id="dog" class="start-hidden">to take your &#x1f415;</button>
+		<button id="walk" class="start-hidden">for a &#x1f6b6;.</button>
+		<button id="outside" class="start-hidden">You go &#x1f305;</button>
+		<button id="sun" class="start-hidden">and the &#x1f31e; is shining!</button>
+		<button id="birds" class="start-hidden">The &#x1f425; are &#x1f3b6;</button>
+		<button id="trees" class="start-hidden">in the &#x1f333; &#x1f332;.</button>
+		<button id="dog-two" class="start-hidden">But then your &#x1f415;</button>
+		<button id="takes" class="start-hidden">takes a <span id="poop">&#x1f4a9;</span>.</button>
+		<button id="unamused" class="start-hidden">&#x1f612;.</button>
+		<button id="better" class="start-hidden">You‘d better</button>
+		<button id="clean-up" class="start-hidden">&#x1f6ae;</button>
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= JQUERY CLICK EVENTS =-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+	<script type="text/javascript">
+	
+		$("#home").click(function(){
+			$("#school").show();
+		});
+
+		$("#school").click(function(){
+			$("#eat").show();
+		});
+
+		$("#eat").click(function(){
+			$("#food").show();
+		});
+		
+		$("#food").click(function(){
+			$("#think").show();
+		});
+		
+		$("#think").click(function(){
+			$("#time").show();
+		});
+		
+		$("#time").click(function(){
+			$("#dog").show();
+		});
+		
+		$("#dog").click(function(){
+			$("#walk").show();
+		});
+		
+		$("#walk").click(function(){
+			$("#outside").show();
+		});
+		
+		$("#outside").click(function(){
+			$("#sun").show();
+		});
+		
+		$("#sun").click(function(){
+			$("#birds").show();
+		});
+		
+		$("#birds").click(function(){
+			$("#trees").show();
+		});
+		
+		$("#trees").click(function(){
+			$("#dog-two").show();
+		});
+		
+		$("#dog-two").click(function(){
+			$("#takes").show();
+		});
+		
+		$("#takes").click(function(){
+			$("#unamused").show();
+		});
+		
+		$("#unamused").click(function(){
+			$("#better").show();
+		});
+		
+		$("#better").click(function(){
+			$("#clean-up").show();
+		});
+		
+		$("#clean-up").click(function(){
+			$("#poop").toggle();
+		});
+	</script>
+	
+	</body>
+</html>
