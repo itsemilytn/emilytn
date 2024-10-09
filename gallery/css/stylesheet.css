@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-left: -2vw;
+    margin-right: -15vw;
+    display:inline-flexbox;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+a img{
+    image-rendering: auto;
+}
