@@ -1,0 +1,61 @@
+@keyframes animate{
+    0%{
+        transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+#welcome{
+    transition: transform 5s;
+    -moz-transition: transform 5s;
+    -o-transition: transform 5s;
+    -webkit-transition: transform 5s;
+}
+    #welcome:hover{
+        transform: translateY(15vh);
+        -moz-transform: translateY(15vh);
+        -o-transform: translateY(15vh);
+        -webkit-transform: translateY(15vh);
+    }
+
+@keyframes fade-in{
+    0%   {opacity:  0;}
+    100% {opacity: 1;}
+}
+
+    @-moz-keyframes fade-in {
+        0%   {opacity:  0;}
+        100% {opacity: 1;} 
+    }
+    
+    @-o-keyframes fade-in {
+        0%   {opacity:  0;}
+        100% {opacity: 1;}
+    }
+    @-webkit-keyframes fade-in {
+        0%   {opacity:  0;}
+        100% {opacity: 1;} 
+    }
+
+.fade-in{
+    animation-name: fade-in;
+        -moz-animation-name: fade-in;
+        -o-animation-name: fade-in;
+        -webkit-animation-name: fade-in;
+    animation-duration: 3s;
+        -moz-animation-duration: 3s;
+        -o-animation-duration: 3s;
+        -webkit-animation-duration: 3s;
+    animation-fill-mode: backwards;
+        -moz-animation-fill-mode: backwards;
+        -o-animation-fill-mode: backwards;
+        -webkit-animation-fill-mode: backwards;
+}
